@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中国术数足球比赛预测赛果数据</title>
+    <style>
+        /* 在这里添加您的自定义样式 */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>中国术数足球比赛预测赛果数据</h1>
+    </header>
+    <nav>
+        <a href="#">主页</a>
+        <a href="#">足球预测</a>
+        <a href="#">风水预测</a>
+        <a href="#">实时比分</a>
+        <a href="#">直播</a>
+    </nav>
+    <main>
+        <section>
+            <h2>足球比赛数据</h2>
+            <p>在这里展示足球比赛数据的占位符。</p>
+        </section>
+        <section>
+            <h2>风水预测</h2>
+            <p>在这里展示风水预测的占位符。</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 中国术数足球比赛预测赛果数据. 保留所有权利。</p>
+    </footer>
+    <script>
+        // 在这里添加您的自定义JavaScript代码
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中国术数足球比赛预测赛果数据</title>
+    <style>
+        /* 在这里添加您的自定义样式 */
+    </style>
+</head>
+<body>
+    <header>
+        <h1>中国术数足球比赛预测赛果数据</h1>
+    </header>
+    <nav>
+        <a href="#">主页</a>
+        <a href="#">足球预测</a>
+        <a href="#">风水预测</a>
+        <a href="#">实时比分</a>
+        <a href="#">直播</a>
+    </nav>
+    <main>
+        <section>
+            <h2>实时比分</h2>
+            <p id="liveScore">点击按钮查看实时比分。</p>
+            <button onclick="getLiveScore()">获取实时比分</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 中国术数足球比赛预测赛果数据. 保留所有权利。</p>
+    </footer>
+    <script>
+        function getLiveScore() {
+            // 在这里添加实际的数据抓取逻辑
+            const exampleScore = '主队 1 - 0 客队';
+            document.getElementById('liveScore').innerText = exampleScore;
+        }
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中國術數足球比賽預測賽果數據</title>
+    <style>
+        body {
+            background-image: url("足球風格背景圖.jpg");
+            font-family: Arial, sans-serif;
+        }
+
+        .button {
+            background-color: #ff9900;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>中國術數足球比賽預測賽果數據</h1>
+
+    <a href="全球統計投注數據.html" class="button">全球統計投注數據</a>
+    <a href="足球預測數據.html" class="button">足球預測數據</a>
+    <a href="風水術數預測.html" class="button">風水術數預測</a>
+    <a href="足球直播.html" class="button">足球直播</a>
+
+    <!-- 更多按鈕可以根据需要添加 -->
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中國術數足球比賽預測賽果數據</title>
+    <style>
+        body {
+            background-image: url("足球風格背景圖.jpg");
+            font-family: Arial, sans-serif;
+        }
+
+        .button {
+            background-color: #ff9900;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        #matchData {
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        async function fetchMatchData() {
+            // 示例API地址，您需要替换为实际使用的API
+            const apiUrl = 'https://api.example.com/match_data';
+            try {
+                const response = await fetch(apiUrl);
+                const data = await response.json();
+
+                displayMatchData(data);
+            } catch (error) {
+                console.error('Error fetching match data:', error);
+            }
+        }
+
+        function displayMatchData(data) {
+            const matchDataContainer = document.getElementById('matchData');
+            matchDataContainer.innerHTML = '';
+
+            data.matches.forEach(match => {
+                const matchElement = document.createElement('div');
+                matchElement.textContent = `比赛：${match.home_team} vs ${match.away_team}，比分：${match.home_score} - ${match.away_score}`;
+                matchDataContainer.appendChild(matchElement);
+            });
+        }
+    </script>
+</head>
+
+<body>
+    <h1>中國術數足球比賽預測賽果數據</h1>
+
+    <a href="#" class="button" onclick="fetchMatchData()">获取比赛数据</a>
+
+    <div id="matchData"></div>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="zh-Hant">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>中國術數足球比賽預測賽果數據</title>
+    <style>
+        body {
+            background-image: url("足球風格背景圖.jpg");
+            font-family: Arial, sans-serif;
+        }
+
+        .button {
+            background-color: #ff9900;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 4px;
+        }
+
+        #predictionData {
+            margin-top: 20px;
+        }
+    </style>
+    <script>
+        function predictMatchResult() {
+            const matchData = {
+                home_team: "Home Team",
+                away_team: "Away Team",
+            };
+
+            // 预测结果
+            const prediction = {
+                home_score: Math.floor(Math.random() * 5),
+                away_score: Math.floor(Math.random() * 5),
+            };
+
+            // 调用风水计算函数
+            const fengshuiAdjustment = calculateFengShuiAdjustment();
+
+            // 应用风水调整
+            prediction.home_score += fengshuiAdjustment.home;
+            prediction.away_score += fengshuiAdjustment.away;
+
+            displayPredictionData(matchData, prediction);
+        }
+
+        function calculateFengShuiAdjustment() {
+            // 在这里实现您的风水计算逻辑
+            // 示例：随机调整分数
+            return {
+                home: Math.floor(Math.random() * 3) - 1,
+                away: Math.floor(Math.random() * 3) - 1,
+            };
+        }
+
+        function displayPredictionData(matchData, prediction) {
+            const predictionDataContainer = document.getElementById('predictionData');
+            predictionDataContainer.innerHTML = '';
+
+            const predictionElement = document.createElement('div');
+            predictionElement.textContent = `比赛：${matchData.home_team} vs ${matchData.away_team}，预测比分：${prediction.home_score} - ${prediction.away_score}`;
+            predictionDataContainer.appendChild(predictionElement);
+        }
+    </script>
+</head>
+
+<body>
+    <h1>中國術數足球比賽預測賽果數據</h1>
+
+    <a href="#" class="button" onclick="predictMatchResult()">预测比赛结果</a>
+
+    <div id="predictionData"></div>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全球足球统计数据和投注数据</title>
+</head>
+<body>
+    <h1>全球足球统计数据和投注数据</h1>
+
+    <!-- 在这里添加HTML元素以显示统计数据和投注数据 -->
+
+    <!-- 用于包含JavaScript代码的script标签 -->
+    <script>
+        // 在这里添加JavaScript代码
+    </script>
+</body>
+</html>
+<!-- 在这里添加HTML元素以显示预测结果 -->
+<div id="prediction-results">
+    <h2>足球比赛预测结果</h2>
+    <p id="predicted-score">预测比分：加载中...</p>
+</div>
+<!-- 在这里添加HTML元素以显示更多预测结果 -->
+<p id="predicted-over-under">全场大小球预测：加载中...</p>
+<p id="predicted-half-full">半场/全场胜平负预测：加载中...</p>
+<!-- 在这里添加一个表格以显示过往比赛数据 -->
+<table id="past-matches" border="1">
+    <thead>
+      <tr>
+        <th>日期</th>
+        <th>主队</th>
+        <th>客队</th>
+        <th>比分</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- 表格数据将由JavaScript插入 -->
+    </tbody>
+  </table>
+<!-- 实时比分部分 -->
+<div id="live-scores">
+    <h2>实时比分</h2>
+    <ul id="scores-list">
+      <!-- 列表将由JavaScript填充 -->
+    </ul>
+  </div>
+    <!-- 投注数据和分析部分 -->
+<div id="betting-data">
+    <h2>全球足球彩票投注数据和分析</h2>
+    <ul id="betting-list">
+      <!-- 列表将由JavaScript填充 -->
+    </ul>
+  </div>
+<!-- 实时比分部分 -->
+<div id="live-scores">
+    <h2>足球实时比分</h2>
+    <ul id="scores-list">
+      <!-- 列表将由JavaScript填充 -->
+    </ul>
+  </div>
+<!-- 投注统计部分 -->
+<div id="betting-stats">
+    <h2>全球足球彩票投注统计</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>赛事</th>
+          <th>评分</th>
+          <th>分析数据</th>
+          <th>预估赛果</th>
+        </tr>
+      </thead>
+      <tbody id="stats-table-body">
+        <!-- 表格内容将由JavaScript填充 -->
+      </tbody>
+    </table>
+  </div>
+  <table id="football-data">
+    <thead>
+      <tr>
+        <th>日期</th>
+        <th>主队</th>
+        <th>客队</th>
+        <th>比分</th>
+      </tr>
+    </thead>
+    <tbody id="football-data-body">
+    </tbody>
+  </table>
+        
